@@ -23,5 +23,9 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  puts array.each{|i|}
-end  
+    count = 0
+    while count < array.length do
+      array[count].to_s
+      count += 1
+    end
+  end 
